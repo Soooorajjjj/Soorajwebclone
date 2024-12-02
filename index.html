@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Buttons Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Page 1: Introduction -->
+    <div id="page1">
+        <h1>Welcome to My Website</h1>
+        <button class="glow-btn" onclick="openWhatsApp()">Chat on WhatsApp</button>
+    </div>
+
+    <!-- Page 2: File Display -->
+    <div id="page2" style="display: none;">
+        <h1>Your Files</h1>
+        <input type="file" id="fileUpload" multiple>
+        <div class="file-grid" id="fileGrid"></div>
+        <input type="text" id="search" placeholder="Search files">
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+body {
+  background: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.glow-btn {
+  background: linear-gradient(45deg, #ff007f, #ff00ff);
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: #fff;
+  text-shadow: 0 0 5px #ff007f;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 0 15px #ff007f;
+  transition: transform 0.3s ease;
+}
+
+.glow-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px #ff007f;
+}
+
+.file-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.file-grid div {
+  background: #222;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+}
